@@ -37,7 +37,7 @@ def test_q(q):
         print('Diff:  ', q - qsol)
         print('Difdiv:', (q - qsol)/np.pi)
         print(i1-3, i2-3, i3-3, i4-3, i5-3, i6-3)
-        if raw_input() == 'q':
+        if input() == 'q':
             sys.exit()
 
 def main():
